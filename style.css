@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;300;400;600&display=swap');
+
+div{
+  font-family: 'Archivo', sans-serif;
+  margin: 25px auto;
+  padding: 15px;
+  background-color: #f5dede;
+  color: #408E91;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+  text-align: center;
+}
+a{
+  font-family: 'Archivo', sans-serif;
+  text-decoration: none;
+  color: #7149C6;
+  transition: 0.3s ease;
+}
+h1, h2 {
+  font-family: 'Archivo', sans-serif;
+  color: #245953;
+}
+a:hover{
+  color: #245953;
+}
+#img-profile{
+  width:350px;
+  height: 350px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.big-bold {
+  font-size: 45px;
+  font-weight: bold;
+}
+#destaque {
+    background-color: #E49393;
+    border: 1px solid #D8D8D8;
+  }
+.card{
+  width: 600px;
+  margin: 25px auto;
+  padding: 25px;
+  background-color: #D8D8D8;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.fa-brands {
+  font-size: 40px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+}
+  .card {
+  width: 600px;
+}
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .card {
+    width: 400px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .card {
+    width: 200px;
+  }
+  #img-profile{
+    width: 180px;
+    height: 180px;
+  }
+  .big-bold {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
