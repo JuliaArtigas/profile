@@ -89,3 +89,7 @@ a:hover{
     font-weight: bold;
   }
 }
+.text-left {
+  color: #408E91;
+  text-align: left;
+}
